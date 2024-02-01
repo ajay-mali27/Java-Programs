@@ -1,15 +1,16 @@
-public class ReverseString {
+import java.util.Scanner;
+
+public class Practice {
 
     public static void main(String[] args) {
 
-        String name = "12345";
+        String name = "Prerana";
         int strLen = name.length();
-        String voidStr = " ";
+        String voidStr = "";
 
         for (int i = strLen - 1; i >= 0; i--) {
-
             voidStr = voidStr + name.charAt(i);
         }
-        System.out.println("The Reverse String is =>" + voidStr);
+        System.out.println(voidStr);
     }
 }

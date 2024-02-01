@@ -7,12 +7,22 @@ public class PrimeNumber {
         System.out.println("Enter The Prime Number");
         int PN = SC.nextInt();
         int temp = 0;
-
+// ------------------------------------------------------------
         for (int i = 2; i < PN; i++) {
             if (PN % i == 0) {
                 temp = temp + 1;
             }
         }
+
+        
+
+
+
+
+
+
+
+        
 
         if (temp > 0) {
             System.out.println("Not a Prime Number");
