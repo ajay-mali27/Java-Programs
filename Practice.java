@@ -1,16 +1,22 @@
-import java.util.Scanner;
-
 public class Practice {
 
     public static void main(String[] args) {
+        // Reverse String
 
-        String name = "Prerana";
-        int strLen = name.length();
-        String voidStr = "";
+        int a = 10;
+        int b = 20;
 
-        for (int i = strLen - 1; i >= 0; i--) {
-            voidStr = voidStr + name.charAt(i);
-        }
-        System.out.println(voidStr);
+        System.out.println("Before Swap A =>" + a);
+        System.out.println("Before Swap A =>" + b);
+
+        // After Swap
+
+        int temp = a; // temp=10;
+        a = b; // a=> 20;
+        b = temp;
+
+        System.out.println("After Swapping A =>" + a);
+        System.out.println("After Swapping B =>" + b);
+
     }
 }

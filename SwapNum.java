@@ -11,7 +11,7 @@ public class SwapNum {
 
         // After Swapping;
 
-        int temp = a;
+        int temp = a;  
         a = b;
         b = temp;
 
