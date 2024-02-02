@@ -11,6 +11,7 @@ public class PrimeNumber {
         for (int i = 2; i < PN; i++) {
             if (PN % i == 0) {
                 temp = temp + 1;
+                System.out.println("Test");
             }
         }
 
